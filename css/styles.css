@@ -1,0 +1,127 @@
+* {
+    box-sizing: content-box;
+}
+
+.barDiscount {
+    height: 38px;
+    background-color: #1CD1B0;
+    background-size: cover;
+    margin-top: -16px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerTop {
+    position: relative;
+    height: 101px;
+    top: -22px;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 170px;
+}
+
+footer {
+    height: 51px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 16px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 28px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+article{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.boxText{
+    position: relative;
+    width: 300px;
+    height: 336px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: -20%;
+}
+
+.boxImgB{
+    width: 300px;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url('../img/fondo1.png');
+}
+
+.boxImg{
+    width: 300px;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url('../img/fondo2.png');
+}
+
+.boxHeart{
+    position: relative;
+    top: 6.25%;
+    left: 6.25%;
+}
+
+.boxPerfil{
+    position: relative;
+    left: 30%;
+    top: -50%;
+    z-index: 10;
+}
+
+h3{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    top: 15%;
+}
+
+.text{
+    width: 267px;
+    height: 113px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.boxVer{
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left:25%;
+    top: 20%;
+    text-align: center;
+}
+
+#verMas{
+    position: relative;
+    top: 25%;
+}
